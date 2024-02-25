@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.28)
+project(src)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(src main.cpp
+        problems/P36.h
+        problems/P1689.h)
