@@ -5,4 +5,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(src main.cpp
         problems/P36.h
-        problems/P1689.h)
+        problems/P1689.h
+        problems/P1985.h
+        problems/P543.h
+        problems/P229.h
+        problems/P380.h)
