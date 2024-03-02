@@ -16,4 +16,5 @@ add_executable(src main.cpp
         problems/P153.h
         problems/P977.h
         problems/P15.h
-        problems/P167.h)
+        problems/P167.h
+        problems/P3.h)
