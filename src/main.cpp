@@ -1,13 +1,17 @@
 #include <iostream>
-#include "problems/P153.h"
+#include "problems/P15.h"
 #include "vector"
 
 
 int main() {
-    //5,7,8,9,1,2
-    //5,7,8,9,1,2,3,4,5,6,
-    std::vector<int> x = {1,2,3,4,5,6};
-    std::cout << Solution::findMin(x) << std::endl;
+
+    std::vector<int> x = {-1,0,1,2,-1,-4};
+    for (auto sorted_square: Solution::threeSum(x)) {
+        std::cout << "--------" << std::endl;
+        for (auto square: sorted_square) {
+            std::cout << square << std::endl;
+        }
+    }
 
 
     return 0;
