@@ -9,4 +9,8 @@ add_executable(src main.cpp
         problems/P1985.h
         problems/P543.h
         problems/P229.h
-        problems/P380.h)
+        problems/P380.h
+        problems/P121.h
+        problems/P217.h
+        problems/P238.h
+        problems/P153.h)
