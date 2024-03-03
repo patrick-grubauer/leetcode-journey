@@ -1,9 +1,10 @@
 #include <iostream>
-#include "problems/P70.h"
+#include "problems/P322.h"
 #include "vector"
 
 
 int main() {
-    std::cout << Solution::climbStairs(4) << std::endl;
+    std::vector<int> x={1,2,5};
+    std::cout << Solution::coinChange(x,11) << std::endl;
     return 1;
 }
