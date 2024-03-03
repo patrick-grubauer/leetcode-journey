@@ -1,9 +1,11 @@
 #include <iostream>
-#include "problems/P191.h"
+#include "problems/P190.h"
 #include "vector"
 
 
 int main() {
-    std::cout << Solution::hammingWeight(3) << std::endl;
+
+
+    std::cout << Solution::reverseBits(43261596) << std::endl;
     return 1;
 }
