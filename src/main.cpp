@@ -1,11 +1,9 @@
 #include <iostream>
-#include "problems/P190.h"
+#include "problems/P70.h"
 #include "vector"
 
 
 int main() {
-
-
-    std::cout << Solution::reverseBits(43261596) << std::endl;
+    std::cout << Solution::climbStairs(4) << std::endl;
     return 1;
 }
