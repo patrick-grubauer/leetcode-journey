@@ -1,10 +1,9 @@
 #include <iostream>
-#include "problems/P11.h"
+#include "problems/P191.h"
 #include "vector"
 
 
 int main() {
-    std::vector<int> x = {2,3,4,5,18,17,6};
-    std::cout << Solution::maxArea(x) << std::endl;
-    return 0;
+    std::cout << Solution::hammingWeight(3) << std::endl;
+    return 1;
 }
