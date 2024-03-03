@@ -1,10 +1,10 @@
 #include <iostream>
-#include "problems/P3.h"
+#include "problems/P11.h"
 #include "vector"
 
 
 int main() {
-    std::string x = "tmmzuxt";
-    std::cout << Solution::lengthOfLongestSubstring(x) << std::endl;
+    std::vector<int> x = {2,3,4,5,18,17,6};
+    std::cout << Solution::maxArea(x) << std::endl;
     return 0;
 }
