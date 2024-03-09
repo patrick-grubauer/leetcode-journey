@@ -23,4 +23,6 @@ add_executable(src main.cpp
         problems/P191.h
         problems/P190.h
         problems/P70.h
-        problems/P322.h)
+        problems/P322.h
+        problems/P242.h
+        problems/P49.h)
