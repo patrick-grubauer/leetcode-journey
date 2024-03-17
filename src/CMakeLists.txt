@@ -28,4 +28,8 @@ add_executable(src main.cpp
         problems/P49.h
         problems/P346.h
         problems/P128.h
-        problems/P155.h)
+        problems/P155.h
+        problems/P57.h
+        problems/P150.h
+        problems/P739.h
+        problems/P853.h)
